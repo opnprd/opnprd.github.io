@@ -1,0 +1,10 @@
+{% if site.data.nav -%}
+<nav>
+  <ol>
+    {% for target in site.data.nav -%}
+      <li><a href="{{ target.url | relative_url }}" {% if page.url == target.url %}class="current"{% endif %}>{{ target.title }}</a></li>
+    {%- endfor %}
+  </ol>
+</nav>
+{%- endif %}
+  

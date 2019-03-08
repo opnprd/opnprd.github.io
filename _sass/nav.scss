@@ -1,0 +1,22 @@
+nav {
+  ol {
+    padding: 0;
+    li {
+      list-style: none;
+      display: inline-block;
+      a {
+        display: block;
+        text-decoration: none;
+        padding: 1em 2em;
+        color: $header-heading-color;
+        &.current {
+          background-color: darken($complement, 20%);
+        }
+        &:hover {
+          color: lighten($complement, 30%);
+          background-color: $complement;
+        }
+      }
+    }
+  }
+}
