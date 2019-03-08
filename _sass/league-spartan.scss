@@ -1,0 +1,13 @@
+$league-spartan-path: "/assets/fonts/leaguespartan";
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url($league-spartan-path + '/leaguespartan-bold.eot');
+    src: url($league-spartan-path + '/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url($league-spartan-path + '/leaguespartan-bold.woff2') format('woff2'),
+         url($league-spartan-path + '/leaguespartan-bold.woff') format('woff'),
+         url($league-spartan-path + '/leaguespartan-bold.ttf') format('truetype'),
+         url($league-spartan-path + '/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
