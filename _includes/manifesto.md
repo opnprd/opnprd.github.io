@@ -4,7 +4,7 @@
     We will work in the open where possible.
 2.  **Think big, deliver fast.** We use agile approaches to
     deliver frequent working increments to move you towards
-    your desintation.
+    your destination.
 3.  **Delivery trumps documentation.** We'd rather give you a
     working product. We won't produce endless documentation
     telling you what we're going to do.
