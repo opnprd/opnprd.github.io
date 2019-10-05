@@ -49,8 +49,9 @@ collections:
         widget: string
       - label: Status
         name: status
-        widget: list
+        widget: select
         options:
+          - unknown
           - bid
           - won
           - started
@@ -58,10 +59,14 @@ collections:
       - label: Start Date
         name: start_date
         widget: datetime
+        default: ""
+        required: false
         format: "YYYY-MM-DD"
       - label: End Date
         name: end_date
         widget: datetime
+        default: ""
+        required: false
         format: "YYYY-MM-DD"
       - label: Body
         name: body
