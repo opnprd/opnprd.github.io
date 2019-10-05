@@ -16,7 +16,11 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        hint: Don't change this once set!
       - {label: "Featured Image", required: false, name: "thumbnail", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
   # - name: "draft" # Used in routes, e.g., /admin/collections/blog
