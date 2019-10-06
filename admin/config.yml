@@ -71,3 +71,23 @@ collections:
       - label: Body
         name: body
         widget: markdown
+  - name: team # Used in routes, e.g., /admin/collections/posts
+    label: Team # Used in the UI
+    folder: _team # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    identifier_field: name
+    fields: # The fields for each document, usually in front matter
+      - label: Id
+        name: name
+        widget: string
+      - label: Name
+        name: display_name
+        widget: string
+      - label: Role
+        name: role
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+        required: false
